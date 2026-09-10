@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Irina Ramirez | GIS Analyst</title>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" type="text/css" href="css/main_style.css">
+
+  <!-- Leaflet Map -->
+  <link rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css">
+
+  <script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js">
+  </script>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+
+    <div class="nav-container">
+
+    
+
+      <div class="nav-links">
+
+      <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#professional-development">Professional Development</a>
+    
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+  <!-- Hero Section -->
+  <header class="hero">
+
+    <div class="hero-content">
+
+      <div class="hero-text">
+
+        <p class="eyebrow">
+          GIS ANALYST • DATA &amp; ANALYTICS
+        </p>
+
+        <h1>
+          Hello, I'm Irina Ramirez.
+        </h1>
+
+        <p class="hero-description">
+          I am a GIS Analyst with a passion for working with data,
+          creating meaningful visualizations, and using technology
+          to solve real-world problems.
+        </p>
+
+    
+
+      </div>
+
+
+      <!-- IR Monogram -->
+      <div class="hero-image">
+
+        <img src="images/IR_monogram.png"
+             alt="IR monogram">
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- About Me -->
+<section id="about" class="section">
+
+  <div class="section-container">
+
+    <p class="section-label">
+      ABOUT ME
+    </p>
+
+    <h2>
+      GIS Professional with a growing passion for Data Analytics
+    </h2>
+
+    <div class="about-content">
+
+      <p>
+        My name is Irina Ramirez, and I am currently working toward
+        growing my knowledge and experience in data analysis,
+        including data visualization, reporting, and finding
+        meaningful insights within data. My goal is to combine my
+        background in GIS with data analytics to become a
+        well-rounded data professional who can approach problems
+        from both a geographic and analytical perspective.
+        This website is a collection of my work, projects,
+        interests, and professional growth. I hope it provides
+        a look into my experience with GIS and my journey toward
+        expanding my career into the broader field of data
+        analytics.
+      </p>
+
+    </div>
+
+
+    <!-- Hometown -->
+    <div class="hometown-about">
+
+      <p class="section-label">
+        MY HOMETOWN
+      </p>
+
+      <h3>
+        Dallas, Texas
+      </h3>
+
+      <p>
+        I am a Dallas, Texas native, and this map highlights
+        the city I call home. Click on green points and buffers for more information.
+      </p>
+
+      <div id="mapid"></div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+  <!-- Education -->
+  <section id="education" class="section section-light">
+
+    <div class="section-container">
+
+      <p class="section-label">
+        EDUCATION
+      </p>
+
+      <h2>
+        My Academic Background
+      </h2>
+
+      <div class="education-card">
+
+        <h3>
+          Texas State University
+        </h3>
+
+        <p class="degree">
+          Bachelor of Science in Geographic Information Science
+        </p>
+
+        <p>
+          Minor in Business Administration
+        </p>
+
+        <p>
+          I was a student in the
+          <a href="https://www.geo.txstate.edu/" target="_blank">
+            Geography Department
+          </a>
+          at
+          <a href="https://www.txst.edu/" target="_blank">
+            Texas State University
+          </a>,
+          where I earned my Bachelor's degree in Geographic
+          Information Science with a minor in Business Administration.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+
+    <div class="section-container">
+
+      <p class="section-label">
+        EXPERIENCE
+      </p>
+
+      <h2>
+       Current Professional Experience
+      </h2>
+
+      <div class="experience-card">
+
+        <div class="experience-header">
+
+          <div>
+
+            <h3>
+              GIS Analyst
+            </h3>
+
+            <p class="company">
+              Rockwall County, Texas
+            </p>
+
+          </div>
+
+          <span class="experience-date">
+            4 Years
+          </span>
+
+        </div>
+
+        <p>
+          My name is Irina Ramirez, and I am currently a GIS Analyst
+          with Rockwall County, Texas. I have been working with the
+          County for the past four years, where I have developed my
+          experience in geographic information systems, data
+          management, mapping, and working with spatial data.
+          Throughout my career in GIS, I have developed a strong
+          interest in data and the ways it can be used to better
+          understand problems, identify trends, and support informed
+          decision-making. My experience working with large datasets
+          and translating information into maps and visualizations
+          has encouraged me to expand my skills beyond GIS and explore
+          the broader field of data analytics.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Skills -->
+  <section id="skills" class="section section-light">
+
+    <div class="section-container">
+
+      <p class="section-label">
+        SKILLS
+      </p>
+
+      <h2>
+        Areas I'm Interested In
+      </h2>
+
+      <div class="skills-grid">
+
+
+        <div class="skill-card">
+
+
+
+          <h3>
+            Geographic Information Systems
+          </h3>
+
+          <p>
+         Mapping | Spatial Data | Analysis
+          </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+  
+          <h3>
+            Data Analytics
+          </h3>
+
+          <p>
+           Data Management | Reporting | Visualization
+          </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+
+          <h3>
+            Data Visualization
+          </h3>
+
+          <p>
+            Maps | Charts | Dashboards
+          </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+  
+
+          <h3>
+            Remote Sensing
+          </h3>
+
+          <p>
+           Imagery | Classification | Analysis
+          </p>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+
+    <div class="section-container">
+
+      <p class="section-label">
+        PROJECTS
+      </p>
+
+      <h2>
+        Selected GIS &amp; Data Projects
+      </h2>
+
+      <p class="section-intro">
+        A selection of public-facing GIS work and professional
+        projects that demonstrate my experience with mapping,
+        visualization, spatial data, and analytical thinking.
+      </p>
+
+
+      <div class="projects-grid">
+
+
+        <!-- Project 1: GIS Hub -->
+        <div class="project-card">
+
+          <span class="project-type">
+            GIS • WEB MAPPING
+          </span>
+
+          <h3>
+            Rockwall County GIS Hub
+          </h3>
+
+          <p>
+            Developed and maintained a public-facing GIS Hub that
+            provides access to geographic information, maps,
+            applications, and other GIS resources for the community.
+          </p>
+
+          <p>
+            This project demonstrates experience with public-facing
+            GIS, web mapping, geographic information organization,
+            and communicating spatial information to a broad audience.
+          </p>
+
+          <a href="https://county-rockwallcounty.hub.arcgis.com/"
+             class="button"
+             target="_blank"
+             rel="noopener noreferrer">
+            View GIS Hub
+          </a>
+
+        </div>
+
+
+        <!-- Project 2: County Maps + StoryMaps -->
+        <div class="project-card">
+
+          <span class="project-type">
+            GIS • CARTOGRAPHY • STORYTELLING
+          </span>
+
+          <h3>
+            Rockwall County Maps &amp; StoryMaps
+          </h3>
+
+          <p>
+            Created web maps and geographic information
+            resources for Rockwall County. This work demonstrates
+            experience with GIS, cartographic design, map production,
+            and communicating geographic information to the public.
+          </p>
+
+
+          <a href="https://rockwallcountytexas.com/889/County-Maps"
+             class="button"
+             target="_blank"
+             rel="noopener noreferrer">
+            View County Maps
+          </a>
+
+
+          <div class="featured-work">
+
+            <h4>
+              Featured StoryMaps
+            </h4>
+
+            <p>
+              Examples of public-facing geographic storytelling
+              and interactive mapping.
+            </p>
+
+            <a href="https://storymaps.arcgis.com/stories/61bc2cc91d3749a6b00f4dd5e155c138"
+               target="_blank"
+               rel="noopener noreferrer">
+              View StoryMap 1
+            </a>
+
+            <br>
+
+            <a href="https://storymaps.arcgis.com/stories/ffad47a66c754157884b1a4315f471ff"
+               target="_blank"
+               rel="noopener noreferrer">
+              View StoryMap 2
+            </a>
+
+          </div>
+
+        </div>
+
+
+     <!-- Project 3: Dashboard -->
+    <div class="project-card">
+
+      <span class="project-type">
+        DATA ANALYTICS • INTERNAL
+      </span>
+
+      <h3>
+        GIS &amp; Data Analytics Dashboard
+      </h3>
+
+      <p>
+        Developed interactive dashboards to organize, analyze,
+        and visualize geographic and tabular data. These
+        dashboards were designed to make information easier
+        to interpret and support operational decision-making.
+      </p>
+
+      <p>
+        <strong>Tools:</strong>
+        GIS, ArcGIS Dashboards, data visualization
+      </p>
+
+      <p class="project-note">
+        This dashboard was developed for internal use and is
+        not currently active. A screenshot is
+        available as a portfolio example. This dashboard will
+        be available to the public later Fall 2026.
+      </p>
+
+    <!-- Dashboard Screenshot Button -->
+<a href="images/SelectionExample_Dashboard.png"
+   class="button"
+   target="_blank">
+  View Dashboard Screenshot
+</a>
+
+  </div>
+
+</div>
+
+  </section>
+
+
+  <!-- Professional Development -->
+  <section id="professional-development"
+           class="section section-light">
+
+    <div class="section-container">
+
+      <p class="section-label">
+       PROFESSIONAL DEVELOPMENT
+      </p>
+
+      <h2>
+        Expanding My Data Analytics Skills
+      </h2>
+
+      <div class="education-card">
+
+
+        <p>
+          I am currently pursuing the Microsoft Power BI Data Analyst Professional Certificate to expand my knowledge and skills in
+          data analytics, statistical visualization, Power BI, and business intelligence.
+        </p>
+
+        <p>
+         <p>
+        My goal is to build upon my professional experience in GIS and combine geographic analysis with data analytics to become a 
+        well-rounded data professional. As part of this career development, I also plan to pursue the Microsoft PL-300: Power BI Data Analyst
+        certification to further strengthen my skills in Power BI, data modeling, analysis, and business intelligence.
+      </p>
+
+        </p>
+
+       <p>
+       As for my current experience and job responsibilities, I am actively expanding my knowledge of new GIS technologies through my Esri account. 
+       I have taken full advantage of the resources available to me, which has allowed me to complete 56 courses and earn more than 10 certificates through Esri.
+
+      </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+
+    <div class="footer-container">
+
+  
+
+      <p class="copyright">
+        © 2026 Irina Ramirez
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <!-- Map JavaScript -->
+  <script src="javascript/map.js"></script>
+
+  <script>
+    map();
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#mapid {
+  height: 100vh;
+  width: 100%;
+}
+
+.map-legend {
+  background: white;
+  padding: 12px 14px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.map-legend h4 {
+  margin: 0 0 6px 0;
+  padding-bottom: 5px;
+  font-size: 16px;
+  color: #245C45;
+  border-bottom: 1px solid #ddd;
+}
+
+.legend-marker {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.legend-marker.buffer {
+  background: #8FBC9F;
+  border: 2px solid #245C45;
+  border-radius: 50%;
+}
+
+.legend-marker.point {
+  background: #3F7F5F;
+  border: 2px solid #245C45;
+  border-radius: 50%;
+}
